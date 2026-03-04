@@ -23,4 +23,5 @@ jobs:
           git fetch upstream
           git checkout master
           git merge upstream/master --no-edit --allow-unrelated-histories
-          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/gaogushenling/CodeGuide.git master
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/gaogushenling/CodeGuide.git
+          git push origin master
