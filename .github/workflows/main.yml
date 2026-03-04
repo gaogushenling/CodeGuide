@@ -1,0 +1,23 @@
+name: Sync with Upstream
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天凌晨 0 点（UTC 时间）自动同步
+  workflow_dispatch:     # 允许手动触发同步
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 拉取完整的 Git 历史
+
+      - name: Sync fork with upstream
+        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
+        with:
+          upstream_repository: fuzhengwei/CodeGuide
+          upstream_branch: master
+          target_branch: master
+          git_user_name: 'GitHub Actions Bot'
+          git_user_email: 'actions@github.com'
