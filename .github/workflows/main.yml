@@ -9,19 +9,18 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 拉取完整的 Git 历史
+          fetch-depth: 1  # 只拉取最新一次提交，大幅减少拉取时间
+          persist-credentials: false
 
-      - name: Sync fork with upstream
-        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
-        with:
-          # 替换为 v3.4.1 支持的新参数名
-          upstream_sync_repo: fuzhengwei/CodeGuide
-          upstream_sync_branch: master
-          target_sync_branch: master
-          # 新增必填的权限参数（使用 GitHub 内置 Token）
-          upstream_repo_access_token: ${{ secrets.GITHUB_TOKEN }}
-          # 修正用户信息参数名
-          git_config_user: 'GitHub Actions Bot'
-          git_config_email: 'actions@github.com'
+      - name: Sync with upstream repository
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git remote add upstream https://github.com/fuzhengwei/CodeGuide.git
+          git fetch upstream
+          git checkout master
+          git merge upstream/master --no-edit
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/gaogushenling/CodeGuide.git master
