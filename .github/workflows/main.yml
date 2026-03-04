@@ -12,7 +12,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1  # 只拉取最新一次提交，大幅减少拉取时间
+          fetch-depth: 0  # 拉取完整的 Git 历史
           persist-credentials: false
 
       - name: Sync with upstream repository
@@ -22,5 +22,5 @@ jobs:
           git remote add upstream https://github.com/fuzhengwei/CodeGuide.git
           git fetch upstream
           git checkout master
-          git merge upstream/master --no-edit
+          git merge upstream/master --no-edit --allow-unrelated-histories
           git push https://${{ secrets.GITHUB_TOKEN }}@github.com/gaogushenling/CodeGuide.git master
