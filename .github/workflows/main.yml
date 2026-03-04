@@ -16,8 +16,12 @@ jobs:
       - name: Sync fork with upstream
         uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
         with:
-          upstream_repository: fuzhengwei/CodeGuide
-          upstream_branch: master
-          target_branch: master
-          git_user_name: 'GitHub Actions Bot'
-          git_user_email: 'actions@github.com'
+          # 替换为 v3.4.1 支持的新参数名
+          upstream_sync_repo: fuzhengwei/CodeGuide
+          upstream_sync_branch: master
+          target_sync_branch: master
+          # 新增必填的权限参数（使用 GitHub 内置 Token）
+          upstream_repo_access_token: ${{ secrets.GITHUB_TOKEN }}
+          # 修正用户信息参数名
+          git_config_user: 'GitHub Actions Bot'
+          git_config_email: 'actions@github.com'
