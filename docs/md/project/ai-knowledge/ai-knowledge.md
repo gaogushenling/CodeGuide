@@ -1,9 +1,9 @@
 ---
-title: AI Agent 智能体（RAG、MCP、Prompt） - 解析文档&Git仓库代码&AI工作流
+title: AI Agent 拖拉拽 + 动态配置
 lock: no
 ---
 
-# 《AI Agent 智能体（RAG、MCP、Prompt）》 - 解析文档&Git仓库代码&AI工作流
+# 《AI Agent 拖拉拽 + 动态配置（RAG、MCP、Prompt）》 - 解析文档&Git仓库代码&AI工作流
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

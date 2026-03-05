@@ -46,7 +46,7 @@ lock: no
 
 ### 1. 你们项目采用了DDD领域驱动设计，能简单介绍一下你们的四色模型是如何划分的？
 
-**回答**：我们项目严格按照DDD四色模型进行架构设计。首先是**实体（Entity）**层，主要包含AiClientVO、AiClientAdvisorVO等核心业务对象，承载业务状态和标识；**值对象（Value Object）**层包含各种配置信息如AiClientSystemPromptVO、AiClientModelVO等，保证数据的不可变性；**领域服务（Domain Service）**层实现了复杂的业务逻辑，如AiClientNode、AiClientAdvisorNode等节点服务，负责AI Agent的组装和编排；**聚合根（Aggregate Root）**则通过ExecuteCommandEntity等实体来管理整个AI Agent的生命周期。这种设计让我们的业务逻辑更加清晰，各层职责分明，便于维护和扩展。
+**回答**：我们项目严格按照DDD四色模型进行架构设计。首先是**值对象**层，主要包含AiClientVO、AiClientAdvisorVO等核心业务对象，承载业务状态和标识；**值对象（Value Object）**层包含各种配置信息如AiClientSystemPromptVO、AiClientModelVO等，保证数据的不可变性；**领域服务（Domain Service）**层实现了复杂的业务逻辑，如AiClientNode、AiClientAdvisorNode等节点服务，负责AI Agent的组装和编排；**聚合根（Aggregate Root）**则通过ExecuteCommandEntity等实体来管理整个AI Agent的生命周期。这种设计让我们的业务逻辑更加清晰，各层职责分明，便于维护和扩展。
 
 ### 2. 你们的微服务架构是如何设计的，各个模块之间是如何协作的？
 

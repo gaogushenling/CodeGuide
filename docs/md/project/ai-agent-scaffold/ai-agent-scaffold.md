@@ -11,6 +11,8 @@ lock: no
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=116167993720925&bvid=BV1KYPwzVEgv&cid=36435853511&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 💥炸了！**日更，日更，接下来这套新项目，即刻开启日更！** 是的，小傅哥又一个新 AI 项目来啦。可以说，现阶段 AI 是每个工程师都必备的技术技能。
