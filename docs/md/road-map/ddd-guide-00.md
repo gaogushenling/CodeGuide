@@ -10,6 +10,8 @@ lock: need
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=116009398764656&bvid=BV1EJfRBNEdL&cid=35805267908&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 `定义接口`、`创建方法`、`调用展示`，其实编程写代码说到底也就这3步，人人都是程序员👨🏻‍💻。公司老板都觉得，它有个AI工具，它都能写代码。但现在的系统工程的分层结构，可不只是一层就写个 Controller，甚至是3层（Model-View-Controller），也有可能是4层（DDD）架构。这样的分层架构怎么理解呢？
 
 <div align="center">
