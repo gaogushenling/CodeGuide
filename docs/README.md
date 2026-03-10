@@ -47,7 +47,7 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号<
 
 - 创新项目「AI」(6)
     - [AI MCP Gateway 网关服务系统](https://bugstack.cn/md/project/ai-mcp-gateway/ai-mcp-gateway.html)
-    - [AI Agent 脚手架 + 场景应用](https://bugstack.cn/md/project/ai-agent-scaffold/ai-agent-scaffold.html) - 综合 Spring AI、LangChain4j + Google ADK（a2a、mcp、skills），打造全新智能体架构方案。
+    - [AI Agent 脚手架 + 场景应用（draw.io、手机龙虾）](https://bugstack.cn/md/project/ai-agent-scaffold/ai-agent-scaffold.html) - 综合 Spring AI、LangChain4j + Google ADK（a2a、mcp、skills），打造全新智能体架构方案。
     - [AI Agent 拖拉拽 + 动态配置（RAG、MCP、Prompt）](https://bugstack.cn/md/project/ai-knowledge/ai-knowledge.html)
     - [OpenAI 代码自动评审组件](https://bugstack.cn/md/zsxq/project/openai-code-review.html)
     - [OpenAI 大模型微服务应用体系构建 - API-SDK、鉴权、公众号、微信支付](https://bugstack.cn/md/zsxq/project/chatgpt.html)

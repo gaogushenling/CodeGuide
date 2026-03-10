@@ -1,13 +1,13 @@
 ---
-title: 第2-6节：装配域节点-ChatModelNode
-pay: https://t.zsxq.com/a8AJj
+title: 【更】第2-6节：装配域节点-ChatModelNode
+pay: https://t.zsxq.com/mnTej
 ---
 
 # 《AI Agent 脚手架》第2-6节：装配域节点-ChatModelNode
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>视频：[待更新](#)
+<br/>视频：[https://t.zsxq.com/X0HRO](https://t.zsxq.com/X0HRO)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
