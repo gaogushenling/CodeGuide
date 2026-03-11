@@ -1,13 +1,13 @@
 ---
 title: 第2-7节：装配域节点-AgentNode
-pay: https://t.zsxq.com/a8AJj
+pay: https://t.zsxq.com/908Fo
 ---
 
 # 《AI Agent 脚手架》第2-7节：装配域节点-AgentNode
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>视频：[待更新](#)
+<br/>视频：[https://t.zsxq.com/PFBNl](https://t.zsxq.com/PFBNl)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
