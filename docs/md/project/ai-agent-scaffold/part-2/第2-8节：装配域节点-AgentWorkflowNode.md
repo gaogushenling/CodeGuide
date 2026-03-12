@@ -1,13 +1,13 @@
 ---
 title: 第2-8节：装配域节点-AgentWorkflowNode
-pay: https://t.zsxq.com/a8AJj
+pay: https://t.zsxq.com/3mjk1
 ---
 
 # 《AI Agent 脚手架》第2-8节：装配域节点-AgentWorkflowNode
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>视频：[待更新](#)
+<br/>视频：[https://t.zsxq.com/3EdmN](https://t.zsxq.com/3EdmN)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
