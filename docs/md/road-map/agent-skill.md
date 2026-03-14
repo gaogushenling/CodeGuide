@@ -1,5 +1,5 @@
 ---
-title: agent-skill
+title: agent-skills
 lock: need
 ---
 
