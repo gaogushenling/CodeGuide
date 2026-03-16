@@ -20,7 +20,6 @@ skill 是什么？它像是一本技能书📚，把一阳指（`mcp/py/shell/js
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-agent-skill-00.png" width="250px">
 </div>
 
-
 随着 LLM 大模型能力的不断提升，并与 RAG、MCP、Skill 的结合，使得 Agent 智能体与完整的计算机环境（Computer/Phone）交互成为可能。这个过程中，一方面不断产生新的技术方案，一方面又不断的优化设计。就像 Skill 的出现，它不是替代 MCP，而是更准确的使用 MCP 能力。
 
 接下来，小傅哥就带着大家使用一波 skill，让小伙伴们可以在 opencode、trae.ai，以及基于 Spring AI 也可以使用上 skill 能力。
