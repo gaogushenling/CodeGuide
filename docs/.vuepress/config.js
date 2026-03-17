@@ -723,13 +723,14 @@ function genBarGuide() {
             ]
         },
         {
-            title: "智能组件(7)",
+            title: "智能组件(8)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
                 "spring-ai.md",
                 "google-adk.md",
                 "agent-skill.md",
+                "a2a.md",
                 "draw.io.md",
                 "ai-ssh-opencode.md",
                 "github-models.md",
