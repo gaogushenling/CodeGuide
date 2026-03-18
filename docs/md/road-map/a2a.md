@@ -10,6 +10,10 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=116247031185424&bvid=BV1QTwfzzEcu&cid=36776771626&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
+大家好，我是技术UP主小傅哥。
+
 chatgpt（22年）-> LLM 进阶（23年）->  MCP 协议（24年）-> Skils 技能（25年）-> A2A 标准（25年），这几年 AI 发展的非常迅速，定义了协议，开发了组件，发布了产品。每个阶段，都有非常牛皮的代表性的内容，车速非常快🚌，不知道在坐的各位有没有掉队。
 
 <div align="center">
