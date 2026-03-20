@@ -1,5 +1,5 @@
 ---
-title: 第2-7节：装配域节点-AgentNode
+title: 【更】第2-7节：装配域节点-AgentNode
 pay: https://t.zsxq.com/908Fo
 ---
 

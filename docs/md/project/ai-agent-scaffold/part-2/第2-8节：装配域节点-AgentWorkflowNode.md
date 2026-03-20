@@ -1,5 +1,5 @@
 ---
-title: 第2-8节：装配域节点-AgentWorkflowNode
+title: 【更】第2-8节：装配域节点-AgentWorkflowNode
 pay: https://t.zsxq.com/3mjk1
 ---
 

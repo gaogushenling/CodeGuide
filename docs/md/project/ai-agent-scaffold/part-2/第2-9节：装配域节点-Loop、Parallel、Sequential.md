@@ -1,5 +1,5 @@
 ---
-title: 第2-9节：装配域节点-Loop、Parallel、Sequential
+title: 【更】第2-9节：装配域节点-Loop、Parallel、Sequential
 pay: https://t.zsxq.com/t29lj
 ---
 
