@@ -1,13 +1,13 @@
 ---
-title: 第2-17节：会话服务接口实现-service
-pay: https://t.zsxq.com/a8AJj
+title: 【更】第2-17节：会话服务接口实现-service
+pay: https://t.zsxq.com/lxqLY
 ---
 
 # 《AI Agent 脚手架》第2-17节：会话服务接口实现-service
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>视频：[待更新](#)
+<br/>视频：[https://t.zsxq.com/vLd8O](https://t.zsxq.com/vLd8O)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
