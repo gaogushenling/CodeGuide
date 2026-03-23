@@ -1,13 +1,13 @@
 ---
-title: 第2-18节：会话服务接口实现-trigger
-pay: https://t.zsxq.com/a8AJj
+title: 【更】第2-18节：会话服务接口实现-trigger
+pay: https://t.zsxq.com/IY7j3
 ---
 
 # 《AI Agent 脚手架》第2-18节：会话服务接口实现-trigger
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>视频：[待更新](#)
+<br/>视频：[https://t.zsxq.com/leFf4](https://t.zsxq.com/leFf4)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
