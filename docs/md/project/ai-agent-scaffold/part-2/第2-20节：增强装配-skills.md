@@ -1,13 +1,13 @@
 ---
 title: 第2-20节：增强装配-skills
-pay: https://t.zsxq.com/a8AJj
+pay: https://t.zsxq.com/7uVom
 ---
 
 # 《AI Agent 脚手架》第2-20节：增强装配-skills
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>视频：[待更新](#)
+<br/>视频：[https://t.zsxq.com/7uVom](https://t.zsxq.com/7uVom)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
