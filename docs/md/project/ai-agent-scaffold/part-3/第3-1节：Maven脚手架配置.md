@@ -1,13 +1,13 @@
 ---
 title: 第3-1节：Maven脚手架配置
-pay: https://t.zsxq.com/a8AJj
+pay: https://t.zsxq.com/jnqmk
 ---
 
 # 《AI Agent 脚手架》第3-1节：Maven脚手架配置
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>视频：[待更新](#)
+<br/>视频：[https://t.zsxq.com/EwCTb](https://t.zsxq.com/EwCTb)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
