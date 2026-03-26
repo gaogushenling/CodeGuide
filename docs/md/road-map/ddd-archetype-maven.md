@@ -20,7 +20,7 @@ lock: need
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-archetype-01.png" width="850px">
 </div>
 
-- 配置地址 https://gaga.plus
+- 配置地址 https://gaga.plus - `备用地址：[https://maven.xiaofuge.cn](https://maven.xiaofuge.cn)`
 - ddd-scaffold-lite 提供了默认版本和 v2 版本。v2 做了少量调整。将 repository、port 统一归属到 adapter 下管理。
 
 ---
