@@ -1,13 +1,13 @@
 ---
-title: 第4-0节：ai + draw.io 产品设计
-pay: https://t.zsxq.com/a8AJj
+title: 【更】第4-0节：ai + draw.io 产品设计
+pay: https://t.zsxq.com/AAwjy
 ---
 
 # 《AI Agent 场景应用 - ai draw.io》第4-0节：ai + draw.io 产品设计
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>视频：[待更新](#)
+<br/>视频：[https://t.zsxq.com/035hj](https://t.zsxq.com/035hj)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 

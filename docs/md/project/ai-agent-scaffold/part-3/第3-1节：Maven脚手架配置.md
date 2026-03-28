@@ -1,5 +1,5 @@
 ---
-title: 第3-1节：Maven脚手架配置
+title: 【更】第3-1节：Maven脚手架配置
 pay: https://t.zsxq.com/jnqmk
 ---
 

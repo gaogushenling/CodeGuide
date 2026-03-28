@@ -1,5 +1,5 @@
 ---
-title: 第3-2节：上传jar到maven仓库
+title: 【更】第3-2节：上传jar到maven仓库
 pay: https://t.zsxq.com/GHNso
 ---
 
