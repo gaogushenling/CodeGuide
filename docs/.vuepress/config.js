@@ -205,166 +205,135 @@ module.exports = {
                         ]
                     },
                     {
-                        text: 'Java',
+                        text: '开发技术',
                         items: [
-                            {
-                                text: '面经手册',
-                                link: '/md/java/interview/2020-07-28-面经手册 · 开篇《面试官都问我啥》.md'
-                            },
-                            {
-                                text: '用Java实现JVM',
-                                link: '/md/java/develop-jvm/2019-05-01-用Java实现JVM第一章《命令行工具》.md'
-                            },
-                            {
-                                text: '基础技术',
-                                link: '/md/java/core/2020-01-06-[源码分析]咋嘞？你的IDEA过期了吧！加个Jar包就破解了，为什么？.md'
-                            }
+                        {
+                            text: 'Java',
+                            items: [
+                                {
+                                    text: '面经手册',
+                                    link: '/md/java/interview/2020-07-28-面经手册 · 开篇《面试官都问我啥》.md'
+                                },
+                                {
+                                    text: '用Java实现JVM',
+                                    link: '/md/java/develop-jvm/2019-05-01-用Java实现JVM第一章《命令行工具》.md'
+                                },
+                                {
+                                    text: '基础技术',
+                                    link: '/md/java/core/2020-01-06-[源码分析]咋嘞？你的IDEA过期了吧！加个Jar包就破解了，为什么？.md'
+                                }
+                            ]
+                        },
+                        {
+                            text: 'Spring',
+                            items: [
+                                {
+                                    text: 'Spring 手撸专栏',
+                                    link: '/md/spring/develop-spring/2021-05-16-第1章：开篇介绍，手写Spring能给你带来什么？.md'
+                                },
+                                {
+                                    text: 'MyBatis 手撸专栏',
+                                    link: '/md/spring/develop-mybatis/2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md'
+                                },
+                                {
+                                    text: 'Spring Cloud',
+                                    link: '/md/spring/spring-cloud/2019-10-31-Spring Cloud零《总有一偏概述告诉你SpringCloud是什么》.md'
+                                },
+                                {
+                                    text: '源码分析(Mybatis、Quartz)',
+                                    link: '/md/spring/source-code/2019-12-25-[源码分析]Mybatis接口没有实现类为什么可以执行增删改查.md'
+                                }
+                            ]
+                        },
+                        {
+                            text: '面向对象',
+                            items: [
+                                {
+                                    text: '重学Java设计模式-创建型模式',
+                                    link: '/md/develop/design-pattern/2020-05-20-重学Java设计模式《实战工厂方法模式》.md'
+                                },
+                                {
+                                    text: '重学Java设计模式-结构型模式',
+                                    link: '/md/develop/design-pattern/2020-06-02-重学 Java 设计模式《适配器模式》.md'
+                                },
+                                {
+                                    text: '重学Java设计模式-行为型模式',
+                                    link: '/md/develop/design-pattern/2020-06-18-重学 Java 设计模式《实战责任链模式》.md'
+                                },
+                                {
+                                    text: '系统架构-DDD 专题',
+                                    link: '/md/develop/framework/ddd/2019-10-15-DDD专题案例一《初识领域驱动设计DDD落地》.md'
+                                },
+                                {
+                                    text: '系统架构-工程框架',
+                                    link: '/md/develop/framework/frame/2019-12-22-架构框架搭建一《单体应用服务之SSM整合：Spring4 + SpringMvc + Mybatis》.md'
+                                },
+                                {
+                                    text: '系统架构-架构方案',
+                                    link: '/md/develop/framework/scheme/2021-02-04-基于IDEA插件开发和字节码插桩技术，实现研发交付质量自动分析.md'
+                                },
+                                {
+                                    text: '标准-开发规范&事故',
+                                    link: '/md/develop/standard/2020-09-14-一次代码评审，差点过不了试用期！.md'
+                                }
+                            ]
+                        },
+                        {
+                            text: 'Netty 4.x',
+                            items: [
+                                {
+                                    text: '基础入门篇',
+                                    link: '/md/netty/base/2019-07-30-netty案例，netty4.1基础入门篇零《初入JavaIO之门BIO、NIO、AIO实战练习》.md'
+                                },
+                                {
+                                    text: '中级拓展篇',
+                                    link: '/md/netty/expand/2019-08-16-netty案例，netty4.1中级拓展篇一《Netty与SpringBoot整合》.md'
+                                },
+                                {
+                                    text: '高级应用篇',
+                                    link: '/md/netty/application/2019-09-01-手写RPC框架第一章《自定义配置xml》.md'
+                                },
+                                {
+                                    text: '源码分析篇',
+                                    link: '/md/netty/source-code/2019-09-10-netty案例，netty4.1源码分析篇一《NioEventLoopGroup源码分析》.md'
+                                },
+                            ]
+                        },
+                        {
+                            text: '字节码编程',
+                            items: [
+                                {
+                                    text: '框架-ASM',
+                                    link: '/md/bytecode/asm/2020-03-25-[ASM字节码编程]如果你只写CRUD，那这种技术你永远碰不到.md'
+                                },
+                                {
+                                    text: '框架-Javassist',
+                                    link: '/md/bytecode/javassist/2020-04-19-字节码编程，Javassist篇一《基于javassist的第一个案例helloworld》.md'
+                                },
+                                {
+                                    text: '框架-Byte-Buddy',
+                                    link: '/md/bytecode/byte-buddy/2020-05-08-字节码编程，Byte-buddy篇一《基于Byte Buddy语法创建的第一个HelloWorld》.md'
+                                },
+                                {
+                                    text: '全链路监控-JavaAgent',
+                                    link: '/md/bytecode/agent/2019-07-10-基于JavaAgent的全链路监控一《嗨！JavaAgent》.md'
+                                },
+                                {
+                                    text: '文档-ASM-DOC',
+                                    link: '/md/bytecode/asm-document/1引言.md'
+                                }
+                            ]
+                        },
+                        {
+                            text: '部署',
+                            items: [
+                                {
+                                    text: '部署工具',
+                                    link: '/md/devops/2023-04-18-tool.md'
+                                }
+                            ]
+                        },
                         ]
-                    },
-                    {
-                        text: 'Spring',
-                        items: [
-                            {
-                                text: 'Spring 手撸专栏',
-                                link: '/md/spring/develop-spring/2021-05-16-第1章：开篇介绍，手写Spring能给你带来什么？.md'
-                            },
-                            {
-                                text: 'MyBatis 手撸专栏',
-                                link: '/md/spring/develop-mybatis/2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md'
-                            },
-                            {
-                                text: 'Spring Cloud',
-                                link: '/md/spring/spring-cloud/2019-10-31-Spring Cloud零《总有一偏概述告诉你SpringCloud是什么》.md'
-                            },
-                            {
-                                text: '源码分析(Mybatis、Quartz)',
-                                link: '/md/spring/source-code/2019-12-25-[源码分析]Mybatis接口没有实现类为什么可以执行增删改查.md'
-                            }
-                        ]
-                    },
-                    {
-                        text: '面向对象',
-                        items: [
-                            {
-                                text: '重学Java设计模式',
-                                items: [
-                                    {
-                                        text: '创建型模式',
-                                        link: '/md/develop/design-pattern/2020-05-20-重学Java设计模式《实战工厂方法模式》.md'
-                                    },
-                                    {
-                                        text: '结构型模式',
-                                        link: '/md/develop/design-pattern/2020-06-02-重学 Java 设计模式《适配器模式》.md'
-                                    },
-                                    {
-                                        text: '行为型模式',
-                                        link: '/md/develop/design-pattern/2020-06-18-重学 Java 设计模式《实战责任链模式》.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: '系统架构',
-                                items: [
-                                    {
-                                        text: 'DDD 专题',
-                                        link: '/md/develop/framework/ddd/2019-10-15-DDD专题案例一《初识领域驱动设计DDD落地》.md'
-                                    },
-                                    {
-                                        text: '工程框架',
-                                        link: '/md/develop/framework/frame/2019-12-22-架构框架搭建一《单体应用服务之SSM整合：Spring4 + SpringMvc + Mybatis》.md'
-                                    },
-                                    {
-                                        text: '架构方案',
-                                        link: '/md/develop/framework/scheme/2021-02-04-基于IDEA插件开发和字节码插桩技术，实现研发交付质量自动分析.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: '标准',
-                                items: [
-                                    {
-                                        text: '开发规范&事故',
-                                        link: '/md/develop/standard/2020-09-14-一次代码评审，差点过不了试用期！.md'
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    // {
-                    //     text: '中间件',
-                    //     items: [
-                    //         {
-                    //             text: 'SpringBoot 中间件开发',
-                    //             link: '/md/assembly/middleware/2019-12-02-SpringBoot服务治理中间件之统一白名单验证.md'
-                    //         },
-                    //         {
-                    //             text: 'IDEA Plugin 开发手册',
-                    //             link: '/md/assembly/idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.md'
-                    //         },
-                    //         {
-                    //             text: 'API网关：中间件设计和实践',
-                    //             link: '/md/assembly/api-gateway/api-gateway.md'
-                    //         }
-                    //     ]
-                    // },
-                    {
-                        text: 'Netty 4.x',
-                        items: [
-                            {
-                                text: '基础入门篇',
-                                link: '/md/netty/base/2019-07-30-netty案例，netty4.1基础入门篇零《初入JavaIO之门BIO、NIO、AIO实战练习》.md'
-                            },
-                            {
-                                text: '中级拓展篇',
-                                link: '/md/netty/expand/2019-08-16-netty案例，netty4.1中级拓展篇一《Netty与SpringBoot整合》.md'
-                            },
-                            {
-                                text: '高级应用篇',
-                                link: '/md/netty/application/2019-09-01-手写RPC框架第一章《自定义配置xml》.md'
-                            },
-                            {
-                                text: '源码分析篇',
-                                link: '/md/netty/source-code/2019-09-10-netty案例，netty4.1源码分析篇一《NioEventLoopGroup源码分析》.md'
-                            },
-                        ]
-                    },
-                    {
-                        text: '字节码编程',
-                        items: [
-                            {
-                                text: '框架', items: [
-                                    {
-                                        text: 'ASM',
-                                        link: '/md/bytecode/asm/2020-03-25-[ASM字节码编程]如果你只写CRUD，那这种技术你永远碰不到.md'
-                                    },
-                                    {
-                                        text: 'Javassist',
-                                        link: '/md/bytecode/javassist/2020-04-19-字节码编程，Javassist篇一《基于javassist的第一个案例helloworld》.md'
-                                    },
-                                    {
-                                        text: 'Byte-Buddy',
-                                        link: '/md/bytecode/byte-buddy/2020-05-08-字节码编程，Byte-buddy篇一《基于Byte Buddy语法创建的第一个HelloWorld》.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: '全链路监控', items: [
-                                    {
-                                        text: 'JavaAgent',
-                                        link: '/md/bytecode/agent/2019-07-10-基于JavaAgent的全链路监控一《嗨！JavaAgent》.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: '文档', items: [
-                                    {text: 'ASM-DOC', link: '/md/bytecode/asm-document/1引言.md'}
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        text: '部署',
-                        link: '/md/devops/2023-04-18-tool.md'
                     },
                     {
                         text: '💯实战项目',
