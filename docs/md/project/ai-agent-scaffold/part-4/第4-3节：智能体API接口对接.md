@@ -1,13 +1,13 @@
 ---
-title: 第4-3节：智能体API接口对接
-pay: https://t.zsxq.com/a8AJj
+title: 【更】第4-3节：智能体API接口对接
+pay: https://t.zsxq.com/hrQVL
 ---
 
 # 《AI Agent 场景应用 - ai draw.io》第4-3节：智能体API接口对接
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>视频：[待更新](#)
+<br/>视频：[https://t.zsxq.com/RnvaG](https://t.zsxq.com/RnvaG)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
