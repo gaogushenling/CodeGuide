@@ -1,6 +1,6 @@
 ---
-title: 第4-4节：AI+用户+DrawIO，交互式画图
-pay: https://t.zsxq.com/a8AJj
+title: 【更】第4-4节：AI+用户+DrawIO，交互式画图
+pay: https://t.zsxq.com/BLDCn
 ---
 
 # 《AI Agent 场景应用 - ai draw.io》第4-4节：AI+用户+DrawIO，交互式画图
