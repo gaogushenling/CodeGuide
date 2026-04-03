@@ -352,7 +352,7 @@ module.exports = {
                                         link: '/md/project/ai-mcp-gateway/ai-mcp-gateway.md'
                                     },
                                     {
-                                        text: 'AI Agent 智能体（RAG、MCP、Prompt）',
+                                        text: 'AI Agent 拖拉拽 + 动态配置',
                                         link: '/md/project/ai-knowledge/ai-knowledge.md'
                                     },
                                     {
