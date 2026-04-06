@@ -2348,6 +2348,7 @@ function getBarAIMCPGateway() {
                 "第3-16节：协议域-协议存储处理.md",
                 "第3-17节：网关域-配置数据存储(CRUD).md",
                 "第3-18节：管理端-API功能编排串联.md",
+                "第3-19节：管理端-API与UI对接.md",
                 "none.md",
             ]
         },
