@@ -20,6 +20,9 @@ actionLinks:
 #- link: https://618.gaga.plus
 #  text: 9.9元/月(云服务器) ☁️
 #  class: secondary
+- link: https://walicode.xiaofuge.cn/
+  text: WaLiCode 🤖
+  class: secondary
 features:
 - title: 沉淀
   details: 承遇朝霞，年少正恰。整装戎马，刻印风华。

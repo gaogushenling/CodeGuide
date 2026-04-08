@@ -456,7 +456,7 @@ module.exports = {
                         link: '/md/zsxq/introduce.md'
                     },
                     {
-                        text: '📝产品',
+                        text: '📝产品(ai ide)',
                         items: [
                             {
                                 text: '出版物', items: [
@@ -499,6 +499,14 @@ module.exports = {
                                     {
                                         text: '💱 IDEA Plugin vo2dto —— 对象转换插件',
                                         link: '/md/product/idea-plugin/vo2dto-v2.5.5.md'
+                                    },
+                                ]
+                            },
+                            {
+                                text: 'AI IDE', items: [
+                                    {
+                                        text: '👨🏻‍💻WaLiCode，AI IDE Coding',
+                                        link: '/md/product/software/walicode.md'
                                     },
                                 ]
                             },
@@ -2001,6 +2009,14 @@ function getBarZSXQ() {
 function getBarProduct() {
     return [
         {
+            title: "AI IDE",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "software/walicode.md",
+            ]
+        },
+        {
             title: "出版物",
             collapsable: false,
             sidebarDepth: 0,
@@ -2031,6 +2047,7 @@ function getBarProduct() {
                 "idea-plugin/vo2dto-v2.5.5.md",
             ]
         },
+
     ]
 }
 
@@ -2461,7 +2478,7 @@ function getBarAIAgentScaffold() {
                 "part-5/第5-3节：服务端网络通信设计(Netty).md",
                 "part-5/第5-4节：初步通过智能体，操作手机设备.md",
                 "part-5/第5-5节：智能体工作流设计.md",
-                "part-5/第5-6节：异步结果响应.md",
+                "part-5/第5-6节：智能体异步响应展示执行过程.md",
                 "part-5/第5-7节：图片位点识别增强.md",
                 "part-5/第5-8节：多版本安卓版本策略支持.md",
                 "part-5/第5-9节：会话上下文细化处理.md",
