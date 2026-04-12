@@ -344,7 +344,7 @@ module.exports = {
                             {
                                 text: '创新类型（AI）', items: [
                                     {
-                                        text: 'AI Agent 脚手架 + 场景应用（更新中）',
+                                        text: 'AI Agent 脚手架 + 场景应用',
                                         link: '/md/project/ai-agent-scaffold/ai-agent-scaffold.md'
                                     },
                                     {
