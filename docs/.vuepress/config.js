@@ -2319,6 +2319,7 @@ function getBarAIMCPGateway() {
             sidebarDepth: 0,
             children: [
                 "ai-mcp-gateway.md",
+                "promotion/ai-mcp-gateway-stage-completion.md",
             ]
         },
         {
@@ -2366,6 +2367,7 @@ function getBarAIMCPGateway() {
                 "第3-17节：网关域-配置数据存储(CRUD).md",
                 "第3-18节：管理端-API功能编排串联.md",
                 "第3-19节：管理端-API与UI对接.md",
+                "第3-20节：验证服务，LLM对接测试MCP接口.md",
                 "none.md",
             ]
         },
