@@ -2319,7 +2319,7 @@ function getBarAIMCPGateway() {
             sidebarDepth: 0,
             children: [
                 "ai-mcp-gateway.md",
-                "promotion/ai-mcp-gateway-stage-completion.md",
+                "notes.md",
             ]
         },
         {
@@ -2369,6 +2369,14 @@ function getBarAIMCPGateway() {
                 "第3-19节：管理端-API与UI对接.md",
                 "第3-20节：验证服务，LLM对接测试MCP接口.md",
                 "none.md",
+            ]
+        },
+        {
+            title: "日常总结",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "promotion/ai-mcp-gateway-stage-completion.md",
             ]
         },
     ]
