@@ -3,7 +3,7 @@ title: WaLiCode，AI IDE Coding！
 lock: no
 ---
 
-WaLiCode - 小傅哥出品，研发自己人的 AI IDE Coding !
+# WaLiCode - 小傅哥出品，研发自己人的 AI IDE Coding !
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
