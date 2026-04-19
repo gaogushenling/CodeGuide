@@ -2368,6 +2368,7 @@ function getBarAIMCPGateway() {
                 "第3-18节：管理端-API功能编排串联.md",
                 "第3-19节：管理端-API与UI对接.md",
                 "第3-20节：验证服务，LLM对接测试MCP接口.md",
+                "第3-21节：验证服务，LLM对接测试MCP界面.md",
                 "none.md",
             ]
         },
