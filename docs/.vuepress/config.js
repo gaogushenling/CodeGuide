@@ -456,7 +456,7 @@ module.exports = {
                         link: '/md/zsxq/introduce.md'
                     },
                     {
-                        text: '📝产品(ai ide)',
+                        text: '📝产品',
                         items: [
                             {
                                 text: '出版物', items: [
@@ -687,6 +687,7 @@ function genBarGuide() {
                 "gitee.md",
                 "mac.md",
                 "nas.md",
+                "walicode.md",
                 "trae.md",
                 "joycode.md",
             ]

@@ -21,7 +21,7 @@ actionLinks:
 #  text: 9.9元/月(云服务器) ☁️
 #  class: secondary
 - link: https://walicode.xiaofuge.cn/
-  text: WaLiCode 🤖
+  text: WaLiCode（平替Trae.ai）
   class: secondary
 features:
 - title: 沉淀
