@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=116439918839670&bvid=BV1Zkd2BvExi&cid=37678287665&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥！
 
 我自己做了个 **WaLiCode，平替市面 AI IDE（trae.ai/codex）** [https://walicode.xiaofuge.cn](https://walicode.xiaofuge.cn) 为什么不用他们的了？🤔

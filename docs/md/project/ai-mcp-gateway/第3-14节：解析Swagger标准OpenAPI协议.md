@@ -1,6 +1,6 @@
 ---
 title: 【更】第3-14节：解析Swagger标准OpenAPI协议
-pay: https://t.zsxq.com/wvb2k
+pay: https://t.zsxq.com/AycUA
 ---
 
 # 《AI MCP Gateway 网关服务系统》第3-14节：解析Swagger标准OpenAPI协议
