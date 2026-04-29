@@ -24,6 +24,8 @@ lock: no
 
 ### 2. this is incompatible with sql_mode=only_full_group_by
 
+>一种是修改连接，另外一种是修改库配置。jdbc:mysql://127.0.0.1:3306/group_buy_market?serverTimezone=UTC&characterEncoding=utf8&autoReconnect=true&serverTimezone=Asia/Shanghai&useSSL=true&sessionVariables=sql_mode='NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES'
+
 **添加 my.cnf 文件**
 
 ```java
