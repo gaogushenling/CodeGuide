@@ -188,7 +188,7 @@ module.exports = {
                         text: '编程路书', link: '/md/road-map/road-map.md'
                     },
                     {
-                        text: 'AI Agent', link: '/md/ai/spring-ai.md'
+                        text: '智能体', link: '/md/ai/introduction.md'
                     },
                     {
                         text: '算法',
@@ -344,12 +344,16 @@ module.exports = {
                             {
                                 text: '创新类型（AI）', items: [
                                     {
-                                        text: 'AI Agent 脚手架 + 场景应用',
-                                        link: '/md/project/ai-agent-scaffold/ai-agent-scaffold.md'
+                                        text: 'WaLiSSH - AI Shell 智能终端（更新中）',
+                                        link: '/md/project/walissh/walissh.md'
                                     },
                                     {
                                         text: 'AI MCP Gateway 网关服务系统（更新中）',
                                         link: '/md/project/ai-mcp-gateway/ai-mcp-gateway.md'
+                                    },
+                                    {
+                                        text: 'AI Agent 脚手架 + 场景应用',
+                                        link: '/md/project/ai-agent-scaffold/ai-agent-scaffold.md'
                                     },
                                     {
                                         text: 'AI Agent 拖拉拽 + 动态配置',
@@ -569,6 +573,7 @@ module.exports = {
                     "/md/project/group-buy-market/": getBarGroupBuyMarket(),
                     "/md/project/ai-knowledge/": getBarAiRagKnowledge(),
                     "/md/project/ai-agent-scaffold/": getBarAIAgentScaffold(),
+                    "/md/project/walissh/": getBarWaLiSSH(),
                     "/md/project/ai-mcp-gateway/": getBarAIMCPGateway(),
                     "/md/project/local-task-message/": getBarLocalTaskMessage(),
                     "/md/project/": getBarDDDSceneSolution(),
@@ -600,6 +605,14 @@ function genBarOther() {
 
 function genBarAI() {
     return [
+        {
+            title: "从零理解智能体（+八股）",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "introduction.md",
+            ]
+        },
         {
             title: "框架",
             collapsable: false,
@@ -2343,6 +2356,7 @@ function getBarAIMCPGateway() {
                 "第2-2节：MCP代理调用.md",
                 "第2-3节：MCP通信协议.md",
                 "第2-4节：streamable协议应用案例.md",
+                "第2-5节：streamable协议应用分析.md",
             ]
         },
         {
@@ -2408,6 +2422,27 @@ function getBarLocalTaskMessage() {
                 "第6节：切面拦截任务操作.md",
             ]
         }
+    ]
+}
+
+function getBarWaLiSSH() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "walissh.md",
+            ]
+        },
+        {
+            title: "1阶段 - 需求分析",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "none.md",
+            ]
+        },
     ]
 }
 
