@@ -208,46 +208,47 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '开发技术',
+                        text: 'Java',
                         items: [
                             {
-                                text: 'Java',
-                                items: [
-                                    {
-                                        text: '面经手册',
-                                        link: '/md/java/interview/2020-07-28-面经手册 · 开篇《面试官都问我啥》.md'
-                                    },
-                                    {
-                                        text: '用Java实现JVM',
-                                        link: '/md/java/develop-jvm/2019-05-01-用Java实现JVM第一章《命令行工具》.md'
-                                    },
-                                    {
-                                        text: '基础技术',
-                                        link: '/md/java/core/2020-01-06-[源码分析]咋嘞？你的IDEA过期了吧！加个Jar包就破解了，为什么？.md'
-                                    }
-                                ]
+                                text: '面经手册',
+                                link: '/md/java/interview/2020-07-28-面经手册 · 开篇《面试官都问我啥》.md'
                             },
                             {
-                                text: 'Spring',
-                                items: [
-                                    {
-                                        text: 'Spring 手撸专栏',
-                                        link: '/md/spring/develop-spring/2021-05-16-第1章：开篇介绍，手写Spring能给你带来什么？.md'
-                                    },
-                                    {
-                                        text: 'MyBatis 手撸专栏',
-                                        link: '/md/spring/develop-mybatis/2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md'
-                                    },
-                                    {
-                                        text: 'Spring Cloud',
-                                        link: '/md/spring/spring-cloud/2019-10-31-Spring Cloud零《总有一偏概述告诉你SpringCloud是什么》.md'
-                                    },
-                                    {
-                                        text: '源码分析(Mybatis、Quartz)',
-                                        link: '/md/spring/source-code/2019-12-25-[源码分析]Mybatis接口没有实现类为什么可以执行增删改查.md'
-                                    }
-                                ]
+                                text: '用Java实现JVM',
+                                link: '/md/java/develop-jvm/2019-05-01-用Java实现JVM第一章《命令行工具》.md'
                             },
+                            {
+                                text: '基础技术',
+                                link: '/md/java/core/2020-01-06-[源码分析]咋嘞？你的IDEA过期了吧！加个Jar包就破解了，为什么？.md'
+                            }
+                        ]
+                    },
+                    {
+                        text: '源码解读',
+                        items: [
+                            {
+                                text: 'Spring 手撸专栏',
+                                link: '/md/spring/develop-spring/2021-05-16-第1章：开篇介绍，手写Spring能给你带来什么？.md'
+                            },
+                            {
+                                text: 'MyBatis 手撸专栏',
+                                link: '/md/spring/develop-mybatis/2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md'
+                            },
+                            {
+                                text: 'Spring Cloud',
+                                link: '/md/spring/spring-cloud/2019-10-31-Spring Cloud零《总有一偏概述告诉你SpringCloud是什么》.md'
+                            },
+                            {
+                                text: '源码分析(Mybatis、Quartz)',
+                                link: '/md/spring/source-code/2019-12-25-[源码分析]Mybatis接口没有实现类为什么可以执行增删改查.md'
+                            }
+                        ]
+                    },
+                    {
+                        text: '架构技术',
+                        items: [
+
                             {
                                 text: '面向对象',
                                 items: [
@@ -606,7 +607,7 @@ function genBarOther() {
 function genBarAI() {
     return [
         {
-            title: "从零理解智能体（+八股）",
+            title: "理论",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -637,12 +638,12 @@ function genBarAI() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "draw.io.md",
+                "walicode.md",
                 "qclaw.md",
                 "openclaw.md",
                 "ai-ssh-opencode.md",
+                "draw.io.md",
                 "github-models.md",
-                "trae.md",
             ]
         },
     ]
@@ -1040,6 +1041,25 @@ function genBarJavaInterview() {
                 "2021-04-07-面经手册 · 第29篇《Spring IOC 特性有哪些，不会读不懂源码！》.md",
                 "2021-04-18-面经手册 · 第30篇《关于 Spring 中 getBean 的全流程源码解析》.md",
                 "2021-05-05-面经手册 · 第31篇《Spring Bean IOC、AOP 循环依赖解读》.md",
+            ]
+        },
+        {
+            title: "第 7 章 MyBatis",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2026-05-26-面经手册 · 第32篇《MyBatis 从SQL注入到预编译深度解析》.md",
+                "2026-05-26-面经手册 · 第33篇《MyBatis 是什么？和 Hibernate 有啥区别？半自动 ORM 怎么理解？》.md",
+                "2026-05-26-面经手册 · 第34篇《MyBatis 工作原理是什么？从 SqlSessionFactory 到 SqlSession 全链路解析》.md",
+                "2026-05-26-面经手册 · 第35篇《Mapper 接口没有实现类，怎么执行的？动态代理源码解析》.md",
+                "2026-05-26-面经手册 · 第36篇《MyBatis 动态 SQL 怎么实现的？9个标签用法与 OGNL 解析原理》.md",
+                "2026-05-26-面经手册 · 第37篇《resultMap 和 resultType 有啥区别？字段名不一致怎么映射？》.md",
+                "2026-05-26-面经手册 · 第38篇《MyBatis 一对一、一对多怎么查？延迟加载原理和 N+1 问题怎么解？》.md",
+                "2026-05-26-面经手册 · 第39篇《MyBatis 缓存机制全解析：一级缓存、二级缓存、清理策略和 Redis 整合》.md",
+                "2026-05-26-面经手册 · 第40篇《MyBatis 分页怎么做？RowBounds 和 PageHelper 原理分析》.md",
+                "2026-05-26-面经手册 · 第41篇《MyBatis 插件怎么拦截 SQL？四大核心对象与 Interceptor 原理分析》.md",
+                "2026-05-26-面经手册 · 第42篇《MyBatis 批量插入有几种方式？自增主键怎么获取？多参数怎么传？》.md",
+                "2026-05-26-面经手册 · 第43篇《MyBatis 和 Spring 怎么整合？SqlSessionTemplate 和自动装配原理》.md",
             ]
         }
     ]
