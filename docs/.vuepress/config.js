@@ -439,6 +439,14 @@ module.exports = {
                                 ]
                             },
                             {
+                                text: 'AI新范式', items: [
+                                    {
+                                        text: 'AI 新范式（0编码），开发 + 运维（部署、压测、调优）',
+                                        link: '/md/project/ai-new-paradigm/ai-new-paradigm.md'
+                                    },
+                                ]
+                            },
+                            {
                                 text: '自学类型', items: [
                                     {
                                         text: '场景案例',
@@ -576,6 +584,7 @@ module.exports = {
                     "/md/project/ai-agent-scaffold/": getBarAIAgentScaffold(),
                     "/md/project/walissh/": getBarWaLiSSH(),
                     "/md/project/ai-mcp-gateway/": getBarAIMCPGateway(),
+                    "/md/project/ai-new-paradigm/": getBarAINewParadigm(),
                     "/md/project/local-task-message/": getBarLocalTaskMessage(),
                     "/md/project/": getBarDDDSceneSolution(),
                     "/md/zsxq/": getBarZSXQ(),
@@ -612,7 +621,18 @@ function genBarAI() {
             sidebarDepth: 0,
             children: [
                 "introduction.md",
-                "ai-llm.md",
+                // "ai-llm.md",
+                "ai-llm-01-history.md",
+                "ai-llm-02-word-continuation.md",
+                "ai-llm-03-token-embedding.md",
+                "ai-llm-04-attention.md",
+                "ai-llm-05-training.md",
+                "ai-llm-06-emergence.md",
+                "ai-llm-07-hallucination.md",
+                "ai-llm-08-agent.md",
+                "ai-llm-09-future.md",
+                "ai-llm-10-practice.md",
+                "ai-llm-11-summary.md",
             ]
         },
         {
@@ -2421,6 +2441,27 @@ function getBarAIMCPGateway() {
                 "promotion/ai-mcp-gateway-stage-completion.md",
             ]
         },
+    ]
+}
+
+function getBarAINewParadigm() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "ai-new-paradigm.md",
+            ]
+        },
+        {
+            title: "课程",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "none.md",
+            ]
+        }
     ]
 }
 
