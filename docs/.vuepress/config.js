@@ -349,7 +349,11 @@ module.exports = {
                                         link: '/md/project/walissh/walissh.md'
                                     },
                                     {
-                                        text: 'AI MCP Gateway 网关服务系统（更新中）',
+                                        text: 'WaLiCode - AI Coding 辅助编码（更新中）',
+                                        link: '/md/project/walicode/walicode.md'
+                                    },
+                                    {
+                                        text: 'AI MCP Gateway 网关服务系统',
                                         link: '/md/project/ai-mcp-gateway/ai-mcp-gateway.md'
                                     },
                                     {
@@ -583,6 +587,7 @@ module.exports = {
                     "/md/project/ai-knowledge/": getBarAiRagKnowledge(),
                     "/md/project/ai-agent-scaffold/": getBarAIAgentScaffold(),
                     "/md/project/walissh/": getBarWaLiSSH(),
+                    "/md/project/walicode/": getBarWaLiCode(),
                     "/md/project/ai-mcp-gateway/": getBarAIMCPGateway(),
                     "/md/project/ai-new-paradigm/": getBarAINewParadigm(),
                     "/md/project/local-task-message/": getBarLocalTaskMessage(),
@@ -621,18 +626,7 @@ function genBarAI() {
             sidebarDepth: 0,
             children: [
                 "introduction.md",
-                // "ai-llm.md",
-                "ai-llm-01-history.md",
-                "ai-llm-02-word-continuation.md",
-                "ai-llm-03-token-embedding.md",
-                "ai-llm-04-attention.md",
-                "ai-llm-05-training.md",
-                "ai-llm-06-emergence.md",
-                "ai-llm-07-hallucination.md",
-                "ai-llm-08-agent.md",
-                "ai-llm-09-future.md",
-                "ai-llm-10-practice.md",
-                "ai-llm-11-summary.md",
+                "ai-llm.md",
             ]
         },
         {
@@ -649,8 +643,8 @@ function genBarAI() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "agent-skill.md",
                 "a2a.md",
+                "agent-skill.md",
             ]
         },
         {
@@ -2430,7 +2424,16 @@ function getBarAIMCPGateway() {
                 "第3-22节：streamable-http-api，测试验证案例.md",
                 "第3-23节：调整case层结构设计，处理不同方式的mcp实现.md",
                 "第3-24节：通过case和domain，串联出Streamable协议.md",
-                "none.md",
+                "第3-25节：验证服务，LLM对接测试Streamable接口.md",
+                "第3-26节：分布式服务设计(redis).md",
+            ]
+        },
+        {
+            title: "第4部分：项目部署",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第4-1节：把网关部署到云服务器.md",
             ]
         },
         {
@@ -2439,6 +2442,7 @@ function getBarAIMCPGateway() {
             sidebarDepth: 0,
             children: [
                 "promotion/ai-mcp-gateway-stage-completion.md",
+                "promotion/ai-mcp-gateway-all-complete.md",
             ]
         },
     ]
@@ -2459,7 +2463,15 @@ function getBarAINewParadigm() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "none.md",
+                "第1节：AI Shell 连接云服务器.md",
+                "第2节：Docker Portainer 环境安装与使用.md",
+                "第3节：MySQL 配置和使用.md",
+                "第4节：Redis 配置和使用验证.md",
+                "第5节：SpringBoot 应用开发.md",
+                "第6节：应用部署到云服务器.md",
+                "第7节：压测项目分析性能.md",
+                "第8节：Ollama 模型部署与验证.md",
+                "第9节：智能对话客服集成.md",
             ]
         }
     ]
@@ -2508,6 +2520,31 @@ function getBarWaLiSSH() {
             sidebarDepth: 0,
             children: [
                 "part-1/第1-1节：初始化工程搭建.md",
+                "part-1/第1-2节：UI 界面设计与实现.md",
+                "part-1/第1-3节：ssh连接云服务器.md",
+                "part-1/第1-4节：ssh连接配置库表设计.md",
+                "part-1/第1-5节：连接SSH简单领域设计.md",
+                "none.md",
+            ]
+        },
+    ]
+}
+
+function getBarWaLiCode() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "walicode.md",
+            ]
+        },
+        {
+            title: "1阶段 - 需求分析",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "none.md",
             ]
         },
