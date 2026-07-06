@@ -626,6 +626,7 @@ function genBarAI() {
             sidebarDepth: 0,
             children: [
                 "introduction.md",
+                "ai-agent-guide.md",
                 "ai-llm.md",
             ]
         },
@@ -1926,8 +1927,9 @@ function getBarZSXQ() {
                 "introduce.md",
                 "material/guide.md",
                 // "material/student-learn-all.md",
-                "material/student-learn-line.md",
+                "material/student-learn-ai.md",
                 // "material/student-learn-recruit.md",
+                "material/student-learn-line.md",
                 "material/student-learn-advanced.md",
             ]
         },
@@ -2525,6 +2527,7 @@ function getBarWaLiSSH() {
                 "part-1/第1-4节：ssh连接配置库表设计.md",
                 "part-1/第1-5节：连接SSH简单领域设计.md",
                 "part-1/第1-6节：UI接口对接SSH连接操作.md",
+                "part-1/第1-7节：SSH命令处理.md",
                 "none.md",
             ]
         },
