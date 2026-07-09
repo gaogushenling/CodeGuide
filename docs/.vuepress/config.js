@@ -345,6 +345,10 @@ module.exports = {
                             {
                                 text: '创新类型（AI）', items: [
                                     {
+                                        text: 'AI Agent Guide 通识教程（前置课）',
+                                        link: 'https://ai-agent-guide.xiaofuge.cn/'
+                                    },
+                                    {
                                         text: 'WaLiSSH - AI Shell 智能终端（更新中）',
                                         link: '/md/project/walissh/walissh.md'
                                     },
@@ -379,7 +383,12 @@ module.exports = {
                                     {
                                         text: 'OpenAI SDK 组件项目',
                                         link: 'https://bugstack.cn/md/zsxq/project/openai-sdk-java.html'
-                                    }
+                                    },
+                                    {
+                                        text: 'AI 新范式（0编码），开发 + 运维（部署、压测、调优）',
+                                        link: '/md/project/ai-new-paradigm/ai-new-paradigm.md'
+                                    },
+
                                 ]
                             },
                             {
@@ -439,14 +448,6 @@ module.exports = {
                                     {
                                         text: 'IDEA Plugin 插件开发',
                                         link: 'https://bugstack.cn/md/assembly/idea-plugin/2021-08-27-%E6%8A%80%E6%9C%AF%E8%B0%83%E7%A0%94%EF%BC%8CIDEA%20%E6%8F%92%E4%BB%B6%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%EF%BC%9F.html'
-                                    },
-                                ]
-                            },
-                            {
-                                text: 'AI新范式', items: [
-                                    {
-                                        text: 'AI 新范式（0编码），开发 + 运维（部署、压测、调优）',
-                                        link: '/md/project/ai-new-paradigm/ai-new-paradigm.md'
                                     },
                                 ]
                             },

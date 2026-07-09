@@ -48,14 +48,17 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号<
 
 ### 开发的项目
 
-- 创新项目「AI」(7)
+- 创新项目「AI」(10)
+    - [AI Agent Guide - 通识教程](https://ai-agent-guide.xiaofuge.cn/) - `做AI项目前，可以先刷下。`
     - [WaLiSSH - AI Shell 智能终端](https://bugstack.cn/md/project/walissh/walissh.html)
+    - [WaLiCode - AI Coding/DevOps 可持续交付助手](https://bugstack.cn/md/project/walicode/walicode.html) - `在 walissh 上扩展，代码已经提前提交`
     - [AI MCP Gateway 网关服务系统](https://bugstack.cn/md/project/ai-mcp-gateway/ai-mcp-gateway.html)
     - [AI Agent 脚手架 + 场景应用（draw.io、手机龙虾）](https://bugstack.cn/md/project/ai-agent-scaffold/ai-agent-scaffold.html) - 综合 Spring AI、LangChain4j + Google ADK（a2a、mcp、skills），打造全新智能体架构方案。
     - [AI Agent 拖拉拽 + 动态配置（RAG、MCP、Prompt）](https://bugstack.cn/md/project/ai-knowledge/ai-knowledge.html)
     - [OpenAI 代码自动评审组件](https://bugstack.cn/md/zsxq/project/openai-code-review.html)
     - [OpenAI 大模型微服务应用体系构建 - API-SDK、鉴权、公众号、微信支付](https://bugstack.cn/md/zsxq/project/chatgpt.html)
     - [ChatGPT AI 问答助手 - 小型，对接知识星球](https://bugstack.cn/md/zsxq/project/chatbot-api.html)
+    - [AI 新范式（0编码），开发 + 运维（部署、压测、调优）](https://bugstack.cn/md/project/ai-new-paradigm/ai-new-paradigm.html)
   
 - 业务项目(5) 
     - [拼团交易平台系统](https://bugstack.cn/md/project/group-buy-market/group-buy-market.html)

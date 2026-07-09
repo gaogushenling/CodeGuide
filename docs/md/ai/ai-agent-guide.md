@@ -66,6 +66,7 @@ lock: need
 <div align="center">
 	<img src="https://bugstack.cn/images/article/ai/ai-agent-guide-02.png" width="750px"/>
 </div>
+
 **💡 这一篇是入门关键**，很多伙伴卡在"Agent 到底是啥"这个问题上。小傅哥用可视化动画，把抽象概念具象化，看完你就能跟面试官掰扯明白了。
 
 ### 第二篇：工具与技能（第6-9章）
