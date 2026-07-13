@@ -2518,7 +2518,7 @@ function getBarWaLiSSH() {
             ]
         },
         {
-            title: "1阶段 - 需求分析",
+            title: "1阶段 - 场景开发",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -2529,9 +2529,17 @@ function getBarWaLiSSH() {
                 "part-1/第1-5节：连接SSH简单领域设计.md",
                 "part-1/第1-6节：UI接口对接SSH连接操作.md",
                 "part-1/第1-7节：SSH命令处理.md",
-                "none.md",
             ]
         },
+        {
+            title: "2阶段 - 智能对接",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-2/第2-1节：引入Tool，做最小MVP版本智能体.md",
+                "none.md",
+            ]
+        }
     ]
 }
 
