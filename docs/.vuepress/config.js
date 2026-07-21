@@ -384,11 +384,18 @@ module.exports = {
                                         text: 'OpenAI SDK 组件项目',
                                         link: 'https://bugstack.cn/md/zsxq/project/openai-sdk-java.html'
                                     },
+                                ]
+                            },
+                            {
+                                text: '零编码区（VibeCoding）', items: [
                                     {
                                         text: 'AI 新范式（0编码），开发 + 运维（部署、压测、调优）',
                                         link: '/md/project/ai-new-paradigm/ai-new-paradigm.md'
                                     },
-
+                                    {
+                                        text: 'WaLiAPI - 开源 AI LLM LocalGateway 本地网关系统',
+                                        link: '/md/project/waliapi/waliapi.md'
+                                    },
                                 ]
                             },
                             {
@@ -455,7 +462,7 @@ module.exports = {
                                 text: '自学类型', items: [
                                     {
                                         text: '场景案例',
-                                        link: '/md/project/ddd-scene-solution/alipay-sandbox.md'
+                                        link: '/md/project/chatbot-api/chatbot-api.md'
                                     },
                                     {
                                         text: '吉祥外卖',
@@ -589,6 +596,7 @@ module.exports = {
                     "/md/project/ai-agent-scaffold/": getBarAIAgentScaffold(),
                     "/md/project/walissh/": getBarWaLiSSH(),
                     "/md/project/walicode/": getBarWaLiCode(),
+                    "/md/project/waliapi/": getBarWaLiAPI(),
                     "/md/project/ai-mcp-gateway/": getBarAIMCPGateway(),
                     "/md/project/ai-new-paradigm/": getBarAINewParadigm(),
                     "/md/project/local-task-message/": getBarLocalTaskMessage(),
@@ -2537,6 +2545,7 @@ function getBarWaLiSSH() {
             sidebarDepth: 0,
             children: [
                 "part-2/第2-1节：引入Tool，做最小MVP版本智能体.md",
+                "part-2/第2-2节：最小MVP版本，UI对接.md",
                 "none.md",
             ]
         }
@@ -2559,6 +2568,46 @@ function getBarWaLiCode() {
             sidebarDepth: 0,
             children: [
                 "none.md",
+            ]
+        },
+    ]
+}
+
+function getBarWaLiAPI() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "waliapi.md",
+                "part-0/第0-1节：学习指引.md",
+            ]
+        },
+        {
+            title: "1阶段 - 基础实现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-1/第1-1节：初始化工程搭建.md",
+                "part-1/第1-2节：数据库设计与初始化.md",
+                "part-1/第1-3节：渠道适配器模式.md",
+                "part-1/第1-4节：多供应商协议适配.md",
+                "part-1/第1-5节：负载均衡调度器.md",
+                "part-1/第1-6节：API转发代理核心.md",
+                "part-1/第1-7节：HTTP服务器与SSE流式.md",
+            ]
+        },
+        {
+            title: "2阶段 - 综合扩展",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-2/第2-1节：密钥管理与配额控制.md",
+                "part-2/第2-2节：安全审计引擎.md",
+                "part-2/第2-3节：安全规则与数据脱敏.md",
+                "part-2/第2-4节：前端页面开发.md",
+                "part-2/第2-5节：设置中心与打包部署.md",
             ]
         },
     ]
