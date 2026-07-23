@@ -10,6 +10,8 @@ lock: no
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=116966438209886&bvid=BV1gngU6JECc&cid=40208893567&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 你想方便的使用各家 LLM 大模型吗，你想稳定的负载均衡的调用吗，你更想透明的知道 Agent 工具调用 LLM 都发了什么信息吗？今天我就帮你解决这个事情。👍🏻
