@@ -396,6 +396,10 @@ module.exports = {
                                         text: 'WaLiAPI - 开源 AI LLM LocalGateway 本地网关系统',
                                         link: '/md/project/waliapi/waliapi.md'
                                     },
+                                    {
+                                        text: 'WaLiOffice - word、ppt、excel、draw.io 在线办公系统',
+                                        link: '/md/project/walioffice/walioffice.md'
+                                    },
                                 ]
                             },
                             {
@@ -597,6 +601,7 @@ module.exports = {
                     "/md/project/walissh/": getBarWaLiSSH(),
                     "/md/project/walicode/": getBarWaLiCode(),
                     "/md/project/waliapi/": getBarWaLiAPI(),
+                    "/md/project/walioffice/": getBarWaLiOffice(),
                     "/md/project/ai-mcp-gateway/": getBarAIMCPGateway(),
                     "/md/project/ai-new-paradigm/": getBarAINewParadigm(),
                     "/md/project/local-task-message/": getBarLocalTaskMessage(),
@@ -2649,6 +2654,94 @@ function getBarWaLiAPI() {
             sidebarDepth: 0,
             children: [
                 "other/waliapi-codex.md",
+            ]
+        },
+    ]
+}
+
+function getBarWaLiOffice() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "walioffice.md",
+                "part-0/第0-1节：学习指引.md",
+            ]
+        },
+        {
+            title: "1部分 - 需求与架构",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-1/第1-1节：WaLiOffice需求分析.md",
+                "part-1/第1-2节：技术栈选型与系统架构设计.md",
+            ]
+        },
+        {
+            title: "2部分 - 智能体对话基础",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-2/第2-1节：工程初始化与项目结构.md",
+                "part-2/第2-2节：LLM客户端与流式SSE实现.md",
+                "part-2/第2-3节：数据库设计与会话持久化.md",
+                "part-2/第2-4节：工具Trait定义与注册表机制.md",
+                "part-2/第2-5节：ReAct循环核心实现.md",
+                "part-2/第2-6节：System Prompt工程与意图识别.md",
+                "part-2/第2-7节：后端Chat路由与SSE端点.md",
+                "part-2/第2-8节：前端对话界面与流式渲染.md",
+            ]
+        },
+        {
+            title: "3部分 - 工具集成",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-3/第3-1节：Markdown工具——全链路模板打通.md",
+                "part-3/第3-2节：Word工具与纯Rust DOCX渲染.md",
+                "part-3/第3-3节：PPT双工具协作plan+generate.md",
+                "part-3/第3-4节：Excel工具与XLSX渲染.md",
+                "part-3/第3-5节：ECharts图表工具与前端渲染.md",
+                "part-3/第3-6节：react-drawio嵌入式编辑器.md",
+                "part-3/第3-7节：联网搜索工具web_search.md",
+                "part-3/第3-8节：图像生成——API调用与多Key轮询.md",
+                "part-3/第3-9节：图像生成——附件理解与图生图.md",
+                "part-3/第3-10节：视频生成——Agnes Video API.md",
+                "part-3/第3-11节：视频生成——本地ffmpeg兜底机制.md",
+            ]
+        },
+        {
+            title: "4部分 - 增强设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-4/第4-1节：配置管理与多组LLM端点.md",
+                "part-4/第4-2节：附件处理与状态管理.md",
+                "part-4/第4-3节：用户认证与JWT.md",
+            ]
+        },
+        {
+            title: "5部分 - 部署与DevOps",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-5/第5-1节：Docker多阶段构建.md",
+                "part-5/第5-2节：云服务器部署配置.md",
+            ]
+        },
+        {
+            title: "6部分 - DSH Agent引擎集成（预留）",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-6/第6-1节：DSH架构设计与混合引擎方案.md",
+                "part-6/第6-2节：DSH核心插件开发.md",
+                "part-6/第6-3节：walioffice-tools统一工具插件.md",
+                "part-6/第6-4节：cordis插件系统与BlockAssembler.md",
+                "part-6/第6-5节：Rust代理路由与工具回调.md",
+                "part-6/第6-6节：前端适配与DSH全链路验证.md",
             ]
         },
     ]
