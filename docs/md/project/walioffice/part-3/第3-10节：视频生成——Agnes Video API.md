@@ -1,6 +1,6 @@
 ---
 title: 第3-10节：视频生成——Agnes Video API
-pay: https://t.zsxq.com/Cj0j0
+pay: https://t.zsxq.com/9bCbJ
 ---
 
 # 《WaLiOffice - AI Agent 智能办公平台》第3-10节：视频生成——Agnes Video API

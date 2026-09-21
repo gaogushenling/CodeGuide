@@ -349,12 +349,16 @@ module.exports = {
                                         link: 'https://ai-agent-guide.xiaofuge.cn/'
                                     },
                                     {
-                                        text: 'WaLiSSH - AI Shell 智能终端（更新中）',
-                                        link: '/md/project/walissh/walissh.md'
+                                        text: 'Java + DDD，1:1 复刻 Deepseek Harness 项目（更新中）',
+                                        link: '/md/project/deepseek-harness-java/deepseek-harness-java.md'
                                     },
                                     {
                                         text: 'WaLiCode - AI Coding 辅助编码（更新中）',
                                         link: '/md/project/walicode/walicode.md'
+                                    },
+                                    {
+                                        text: 'WaLiSSH - AI Shell 智能终端',
+                                        link: '/md/project/walissh/walissh.md'
                                     },
                                     {
                                         text: 'AI MCP Gateway 网关服务系统',
@@ -400,10 +404,7 @@ module.exports = {
                                         text: 'WaLiOffice - word、ppt、excel、draw.io 在线办公系统',
                                         link: '/md/project/walioffice/walioffice.md'
                                     },
-                                    {
-                                        text: 'Java + DDD，1:1 复刻 Deepseek Harness 项目',
-                                        link: '/md/project/deepseek-harness-java/deepseek-harness-java.md'
-                                    },
+
                                 ]
                             },
                             {
@@ -492,6 +493,26 @@ module.exports = {
                         text: '📝产品',
                         items: [
                             {
+                                text: 'AI 应用', items: [
+                                    {
+                                        text: '👨🏻‍💻WaLiCode，编码&运维软件',
+                                        link: 'https://walicode.xiaofuge.cn/'
+                                    },
+                                    {
+                                        text: '🔧WaLiAPI，LLM 网关（负载均衡）',
+                                        link: 'https://github.com/fuzhengwei/WaLiAPI/releases'
+                                    },
+                                    {
+                                        text: '‍💻WaLiOffice，轻办公服务（仿豆包）',
+                                        link: 'https://walicode.xiaofuge.cn/'
+                                    },
+                                    {
+                                        text: '🐴DSH Java Desktop，AI Buddy 产品',
+                                        link: 'https://walicode.xiaofuge.cn/'
+                                    },
+                                ]
+                            },
+                            {
                                 text: '出版物', items: [
                                     {
                                         text: '2021年出版《重学Java设计模式》',
@@ -535,14 +556,7 @@ module.exports = {
                                     },
                                 ]
                             },
-                            {
-                                text: 'AI IDE', items: [
-                                    {
-                                        text: '👨🏻‍💻WaLiCode，AI IDE Coding',
-                                        link: '/md/product/software/walicode.md'
-                                    },
-                                ]
-                            },
+
                         ]
                     },
                     {
@@ -2563,7 +2577,8 @@ function getBarWaLiSSH() {
                 "part-2/第2-7节：ReAct 意图识别与反馈回路.md",
                 "part-2/第2-8节：ReAct 长期记忆和数据召回.md",
                 "part-2/第2-9节：缓存命中与推理使用.md",
-                "none.md",
+                "part-2/第2-10节：子Agent派发.md",
+                "part-2/第2-11节：UI 对接&迭代功能.md",
             ]
         }
     ]
@@ -2766,6 +2781,7 @@ function getBarDeepseekHarnessJava() {
             sidebarDepth: 0,
             children: [
                 "deepseek-harness-java.md",
+                "dsh-java-desktop.md",
                 "dsh-java-plugin.md",
             ]
         },
