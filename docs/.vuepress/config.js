@@ -662,6 +662,8 @@ function genBarAI() {
                 "ai-agent-guide.md",
                 "ai-agent-guide-wx.md",
                 "ai-llm.md",
+                "toy-agent.md",
+                "toy-agent-coding.md",
             ]
         },
         {
@@ -688,6 +690,7 @@ function genBarAI() {
             sidebarDepth: 0,
             children: [
                 "walicode.md",
+                "walibot.md",
                 "qclaw.md",
                 "openclaw.md",
                 "ai-ssh-opencode.md",
@@ -2811,6 +2814,14 @@ function getBarDeepseekHarnessJava() {
                 "part-1/第1-1节：契约定义-types，消息与工具.md",
                 "part-1/第1-2节：契约定义-types，插件SPI机制.md",
                 "part-1/第1-3节：契约定义-api，接口层定义.md",
+            ]
+        },
+        {
+            title: "2阶段 - 模型通信",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-2/第2-1节：LLM端口，最小DeepSeek适配器.md",
             ]
         },
     ]
